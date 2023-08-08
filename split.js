@@ -6,4 +6,17 @@ const sentence = lyrics.split('.');
 const char = lyrics.split('');
 // console.log(char);
 const partial = lyrics.slice(5, 11);
-console.log(partial);
+// console.log(partial);
+const partial2 = lyrics.substring(5, 11);
+// console.log(partial2);
+
+const lines = [
+  "Tomi bondhu kala pakhi",
+   "Ami jeno ki",
+   "Sada sada kala kala",
+   "Rong jomeche sada kala",
+   "Hoichi ami mon pagela"
+];
+
+const newLines = lines.join(". ");
+console.log(newLines);
